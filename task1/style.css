@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(214, 212, 212);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(186, 203, 150);
+    padding: 20px;
+    align-items:center;
+}
+
+.logos-box-left {
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(132, 232, 235);
+    width: 500px;
+    justify-content:space-around;  
+}
+
+.links-box-right {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color: rgb(130, 194, 230);
+    font-size: 30px;
+    padding: 10px;
+    width: 500px;
+    
+}
+img{
+    width:100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+.button {
+    width: 80px;
+    height: auto;
+}
+
+
+.card-container {
+    display: flex;
+    background-color: rgb(217, 238, 93);
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgb(206, 162, 3);
+    width: 500px;
+    height: 350px;
+    background-color: #c9f3b8;
+    border-radius: 12px;
+    box-br: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+.card p {
+    border: 1px dotted cadetblue;
+}
+
+.all-grid {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 150px 400px 200px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "box-1 box-1"
+    "box-2 box-3"
+    "box-4 box-4"
+    ;
+    gap: 32px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.grid{
+    background-color: rgb(102, 150, 191);
+}
+
+.photo-box {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+    grid: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.img-aitu:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.img-aitu{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}

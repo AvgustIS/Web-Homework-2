@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
 .body-site{
     display: flex;
     flex-direction: column;
+    
 }
 .grid-menu{
     display: grid;
@@ -75,7 +81,51 @@ nav {
 
 .main-section {
     background-color: #eb5d5d;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e24f4f;
+    border:1px solid #b04343;
+    border-radius: 10px;
+    width: 15%;
+    margin: 20px;
+}
+
+.main-section .title-box p {
+    margin:1px;
+    font-weight: bold;
+    font-size: 30px;
     
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 3px;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 500px;
+    height: 380px;
+    align-items: center;
+    padding: 10px;
+}
+
+.card img{
+    width: 200px;
+    height: auto;
 }
 
 .sidebar{
@@ -84,5 +134,8 @@ nav {
 
 .footer {
     background-color: #91d658;
+    padding: 20px;
+    width: 97.6%;
+    height: 75px;
 }
 
